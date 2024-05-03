@@ -1,24 +1,41 @@
-# This is a Flashcard Generator Capstone Project.
+**Flashcard Generator Capstone Project**
 
-## This mostly comprises 3 pages.
+---
 
-### Flashcard Page to Create
-### Flashcards I Have Page
-### Flashcard Details Page
-* Problem Statement for the Flashcard Details Page:To design a Flashcard Generator Web Application with primarily 3 pages,
+**Project Overview**
 
-* The first page was for creating a flashcard, which had two forms: one for the name and description of the flashcard and the ability to add images; the second form was for creating a dynamic form using FORMIK, which has individual card names and descriptions. The Flashcard will be produced when you click the Create Button.
+This Flashcard Generator Web Application comprises three primary pages:
 
-* Formik & Redux Toolkit is used for Global State Management and also supports form validations.
+1. **Flashcard Creation Page**: Users can create flashcards with a name, description, and optional images. Additionally, they can add individual card names and descriptions using a dynamic form powered by Formik. Flashcards are generated upon clicking the Create button. Formik and Redux Toolkit are utilized for global state management and form validations.
 
-* On the second page, all of the user-created cards were revealed. By default, the user can only see 6 cards; however, after selecting the See All button, all of the remaining cards are shown.
+2. **Flashcards Display Page**: This page showcases all user-created cards. Initially, only six cards are visible, but users can view all cards by selecting the "See All" button.
 
-* After choosing View Cards, the user is sent to the flashcard information page, where they may view all the cards on that flashcard and pick which cards to display in the center sections by clicking the menu on the left side.
+3. **Flashcard Details Page**: Users can access this page by selecting a flashcard on the Flashcards Display Page. Here, they can view all cards associated with that flashcard and choose which cards to display in the central section by utilizing the menu on the left side. The right side of the page features Share, Download, and Print buttons. Clicking the Share button opens a modal for copying the link to share. Users can also share the flashcard on various social media platforms, including Facebook, Instagram, WhatsApp, Twitter, and email, via the bottom-side modal.
 
-* The Share, Download, and Print buttons are located on the right side. By clicking the Share button, a Modal opens, allowing the user to copy the link there. By pressing the Copy to Clipboard button, the link is copied to the clipboard, allowing the user to paste it anywhere.
+**Links:**
+- GitHub Repository: [link to your GitHub repository]
+- Live Demo: [link to the live demo of your application]
 
-* The user may post the produced flashcard to their social media accounts using the bottom-side modal on platforms including Facebook, Instagram, Whatsapp, Twitter, and Mail.
+**Installation Guide:**
+1. Clone the GitHub repository to your local machine.
+2. Navigate to the project directory.
+3. Install dependencies using `npm install`.
+4. Start the application with `npm start`.
+5. Access the application via the provided localhost URL.
 
-## GitHub : #
+**Project Structure:**
+- `src/`
+  - `components/`: Contains reusable React components.
+  - `pages/`: Contains main pages of the application.
+  - `redux/`: Contains Redux Toolkit setup and slice files for state management.
+  - `utils/`: Utility functions and helper files.
+  - `App.js`: Entry point of the application.
 
-## Live Demo : #
+**Technologies Used:**
+- React.js
+- Redux Toolkit
+- Formik
+- HTML
+- CSS
+- JavaScript
+
