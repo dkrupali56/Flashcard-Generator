@@ -13,8 +13,8 @@ This Flashcard Generator Web Application comprises three primary pages:
 3. **Flashcard Details Page**: Users can access this page by selecting a flashcard on the Flashcards Display Page. Here, they can view all cards associated with that flashcard and choose which cards to display in the central section by utilizing the menu on the left side. The right side of the page features Share, Download, and Print buttons. Clicking the Share button opens a modal for copying the link to share. Users can also share the flashcard on various social media platforms, including Facebook, Instagram, WhatsApp, Twitter, and email, via the bottom-side modal.
 
 **Links:**
-- GitHub Repository: [link to your GitHub repository]
-- Live Demo: [link to the live demo of your application]
+- GitHub Repository: [https://github.com/dkrupali56/Flashcard-Generator]
+- Live Demo: [https://flashcard-generatorc250f5.netlify.app/]
 
 **Installation Guide:**
 1. Clone the GitHub repository to your local machine.
